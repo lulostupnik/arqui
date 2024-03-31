@@ -1,0 +1,1 @@
+command gcc -S -masm=intel test.c -m32  (en 32 bits)
