@@ -1,8 +1,0 @@
-
-Como funciona lo de libasm_4 ???
-
-ej12 --> recorrer para arriba o abajo?
-ej11 --> como se hace?
-ej14 --> hacer
-
-el manual de SYSCALLS, me dice todo en C, como hago para que me diga en asm

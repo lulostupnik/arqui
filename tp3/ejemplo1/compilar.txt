@@ -1,0 +1,4 @@
+$> nasm ‐f elf32 main.asm
+$> gcc ‐c ‐m32 hello.c
+$> gcc ‐m32 main.o hello.o ‐o hello
+$> ./hello
