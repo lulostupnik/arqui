@@ -1,0 +1,3 @@
+ej6
+ej7
+ej8 (hay un flag para poder llamar al MAIN de C desde ASM!)
