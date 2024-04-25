@@ -26,7 +26,7 @@ do
     basename=${basename%.*}
     
     if [[ "$filename" == *.c ]]; then
-        \gcc -g -c -m32 -fno-builtin "$filename" -o "${dirname1}/outputs/$basename.o"
+        \gcc -g -c -m32 -nostartfiles -fno-builtin "$filename" -o "${dirname1}/outputs/$basename.o"
     elif [[ "$filename" == *.asm ]]; then
         nasm -f elf32 "$filename" -o "${dirname1}/outputs/$basename.o"
     else

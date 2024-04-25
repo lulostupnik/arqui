@@ -1,0 +1,1 @@
+Para que el gcc compile sin llamar a main() por su cuenta hay que usar el flag -nostartfiles

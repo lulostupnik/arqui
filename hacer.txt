@@ -1,3 +1,6 @@
 ej6
 ej7
-ej8 (hay un flag para poder llamar al MAIN de C desde ASM!)
+ej11
+ej12 --> comprobar a mano el resultado del gcc y hacer el seguimiento, 
+ej13
+los ejs que no hice de la guia 2
