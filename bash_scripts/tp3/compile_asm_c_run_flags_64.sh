@@ -26,9 +26,9 @@ do
     basename=${basename%.*}
     
     if [[ "$filename" == *.c ]]; then
-        \gcc -g -c -m32 -nostartfiles -fno-builtin "$filename" -o "${dirname1}/outputs/$basename.o"
+        \gcc -nostartfiles -g -c -m64 "$filename" -o "${dirname1}/outputs/$basename.o"
     elif [[ "$filename" == *.asm ]]; then
-        nasm -f elf32 "$filename" -o "${dirname1}/outputs/$basename.o"
+        nasm -f elf64 "$filename" -o "${dirname1}/outputs/$basename.o"
     else
         echo "Error: Unsupported file format in $filename."
         exit 1
@@ -43,7 +43,7 @@ do
 done
 
 # Linking the object files
-\gcc -m32 -g -nostartfiles -o "${dirname1}/outputs/${basename1}" ${objects_string}
+\gcc -nostartfiles -m64 -o "${dirname1}/outputs/${basename1}" ${objects_string}
 if [ $? -ne 0 ]; then
     echo "Error: Linking failed."
     exit 1

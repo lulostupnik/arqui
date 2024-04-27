@@ -1,6 +1,4 @@
-ej6
-ej7
-ej11
-ej12 --> comprobar a mano el resultado del gcc y hacer el seguimiento, 
-ej13
-los ejs que no hice de la guia 2
+ej 17 y 18 de la guia 2
+repaso guia 1
+repaso teorica
+parciales :)

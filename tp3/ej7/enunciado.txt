@@ -1,0 +1,12 @@
+Ejercicio 7
+Declare en una función de C, un arreglo de las siguientes formas:
+
+* Sin inicializar
+* Con inicialización (int numeros[20] = {0}, ó char msg[] = “mensaje”)
+* Sin inicializar y luego realizando una escritura en el índice 10
+* Con inicialización y luego realizando una escritura en el índice 10
+* De manera global, sin inicializar
+* De manera global inicializando.
+
+Primero suponga cómo debería hacer C para su declaración, y luego compare sus
+suposiciones con la salida en assembler.
